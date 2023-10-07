@@ -1,0 +1,85 @@
+header {
+	background: #224460;
+}
+
+.admin-wrapper {
+	display: flex;
+	height: calc(100% - 66px);
+}
+
+.admin-wrapper .left-sidebar {
+	flex: 2;
+	height: 100%;
+	background: #B3C7D6;
+}
+
+.admin-wrapper .left-sidebar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: aliceblue;
+	text-align: center;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+	padding: 18px;
+	display: block;
+	border-bottom: 1px solid #224460;
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+	background: #224460;
+	transition: ease-in .3s;
+}
+
+.admin-wrapper .admin-content {
+	flex: 8;
+	height: 100%;
+	padding: 40px 100px 100px;
+	overflow-y: scroll;
+}
+.admin-content .page-title {
+	text-align: center;
+	margin-bottom: 1.5rem;
+	color: black;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1.1rem;
+}
+
+th,
+td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.edit {
+	background: green;
+	padding:5px 10px ;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+.delete {
+	background: red;
+	padding:5px 10px ;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+.publish {
+	background: blue;
+	padding:5px 10px ;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+
+
+form div {
+	margin-bottom: 15px;
+}
